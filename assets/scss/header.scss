@@ -1,0 +1,87 @@
+body{
+
+    
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #be0e14;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #be0e14);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #be0e14); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background: #EB3349;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
+
+
+
+}
+
+#logo{
+    color: white;
+  font-family: 'Kanit', sans-serif;
+  font-size: 40px;
+  margin-left: 20px;
+}
+link{
+    margin-right: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+ul {
+    
+    list-style-type: none;
+}
+    
+.name{
+    
+    position: absolute;
+    right: 11%;
+    text-align: center;
+    text-decoration: none;
+   color: white;
+    font-size: 3vh;
+    font-family: 'Work Sans', sans-serif;
+   
+}
+.name:hover{
+    
+    position: absolute;
+    right: 11%;
+    top:2%;
+    text-align: center;
+    text-decoration: none;
+   color: white;
+    font-size: 3vh;
+    font-family: 'Work Sans', sans-serif;
+}
+.sign{
+    color: white;
+    position: absolute;
+    right: 4%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vh;
+    font-family: 'Work Sans', sans-serif;
+  
+}
+.sign:hover{
+    color: white;
+    position: absolute;
+    right: 4%;
+    top:2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vh;
+    font-family: 'Work Sans', sans-serif;
+  
+}

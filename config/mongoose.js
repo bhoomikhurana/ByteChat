@@ -11,3 +11,4 @@ db.on('error',function(err){
 db.once('connected',function(){
     console.log('Successfully connected to the database');
 });
+module.exports=db;

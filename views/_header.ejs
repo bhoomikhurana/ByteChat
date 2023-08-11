@@ -1,0 +1,25 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Work+Sans&display=swap" rel="stylesheet">
+<header>
+    <div id="logo">
+        bytechat </div>
+        
+    <ul class="link">
+        <% if(locals.user){%>
+        <li>
+            <a class="name" href="/users/profile"><%=user.name%></a>
+        </li>
+        <li>
+            <a class="sign" href="/users/sign-out">SignOut</a>
+        </li>
+        <%}else{%>
+            <li>
+                <a class="name" href="/users/sign-in">Sign In</a>
+            </li> 
+            <li>
+                <a class="sign" href="/users/sign-up">Sign Up</a>
+            </li>
+            <%}%>
+    </ul>
+</header>
